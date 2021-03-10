@@ -811,7 +811,7 @@ a:not([href]):not([tabindex]):hover {
 }
 .testimonial-item img {
   width: 80px;
-  height: 80px;
+  height: 90px;
   border-radius: 50%;
 }
 .testimonial-item .testimonial-text h3 {

@@ -14,7 +14,7 @@ p {
 }
 a:hover,
 a:focus {
-  color: #4676fa;
+  color: #5cdb95;
 }
 a {
   -webkit-transition: all 0.2s linear;
@@ -27,7 +27,7 @@ a {
   padding: 10px 30px;
   border-radius: 0px;
   font-weight: 400;
-  color: #fff;
+  color: #0d3559;
   text-transform: uppercase;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -41,30 +41,30 @@ a {
   outline: none;
 }
 .btn-common {
-  border: 2px solid #4676fa;
-  background-color: #4676fa;
+  border: 2px solid #5cdb95;
+  background-color: #5cdb95;
   position: relative;
   z-index: 1;
   border-radius: 4px;
 }
 .btn-common:hover {
-  color: #4676fa;
+  color: #5cdb95;
   background-color: transparent;
-  border: 2px solid #4676fa;
+  border: 2px solid #5cdb95;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
 }
 .btn-border {
-  color: #fff;
+  color: #05386b;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #0d3559;
   border-radius: 4px;
 }
 .btn-border:hover {
   border: 2px solid #fff;
   color: #fff;
-  background-color: #4676fa;
+  background-color: #5cdb95;
 }
 .btn-lg {
   padding: 14px 33px;
@@ -87,6 +87,7 @@ h5 {
   font-size: 40px;
   font-weight: 100;
   letter-spacing: 1px;
+  color: #0d3559;
 }
 ul {
   margin: 0;
@@ -105,7 +106,7 @@ a:not([href]):not([tabindex]) {
 }
 a:not([href]):not([tabindex]):focus,
 a:not([href]):not([tabindex]):hover {
-  color: #4676fa;
+  color: #5cdb95;
 }
 .section {
   padding: 80px 0;
@@ -124,7 +125,7 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 .section-header .section-title span {
-  color: #4676fa;
+  color: #379683;
 }
 .section-header .section-subtitle {
   margin-top: 15px;
@@ -136,7 +137,7 @@ a:not([href]):not([tabindex]):hover {
   margin: auto;
   width: 70px;
   position: relative;
-  border-top: 2px solid #346afe;
+  border-top: 2px solid #379683;
   margin-top: 15px;
 }
 .section-header .lines:before {
@@ -148,7 +149,7 @@ a:not([href]):not([tabindex]):hover {
   top: -10px;
   border: 4px solid #fff;
   border-radius: 50%;
-  background: #4676fa;
+  background: #5cdb95;
   left: 27px;
 }
 /* ==========================================================================
@@ -172,10 +173,10 @@ a:not([href]):not([tabindex]):hover {
 }
 .menu-bg .menu-button:hover {
   cursor: pointer;
-  color: #4676fa;
+  color: #5cdb95;
 }
 .menu-bg .logo-menu a {
-  color: #4676fa;
+  color: #5cdb95;
 }
 .menu-button:hover {
   cursor: pointer;
@@ -198,7 +199,7 @@ a:not([href]):not([tabindex]):hover {
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:hover:before {
-  color: #4676fa;
+  color: #5cdb95;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
@@ -207,7 +208,7 @@ a:not([href]):not([tabindex]):hover {
 .navbar-light .navbar-nav .nav-link.active:before,
 .navbar-light .navbar-nav .nav-link.open,
 .navbar-light .navbar-nav .open > .nav-link {
-  color: #4676fa;
+  color: #5cdb95;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
@@ -238,7 +239,7 @@ a:not([href]):not([tabindex]):hover {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #4676fa;
+  background: #5cdb95;
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
@@ -274,7 +275,7 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.2s linear;
 }
 #hero-area .banner_bottom_btn i:hover {
-  color: #4676fa;
+  color: #5cdb95;
 }
 /* ==========================================================================
    Slider Area
@@ -342,7 +343,7 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.2s linear;
 }
 #video-area .banner_bottom_btn i:hover {
-  color: #4676fa;
+  color: #5cdb95;
 }
 .overlay-2 {
   background: rgba(0, 0, 0, 0.7) !important;
@@ -359,7 +360,7 @@ a:not([href]):not([tabindex]):hover {
   padding: 15px;
   border-radius: 4px;
   margin-bottom: 15px;
-  webkit-transition: all 0.3s ease 0s;
+  /* webkit-transition: all 0.3s ease 0s; */
   -moz-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
@@ -367,22 +368,23 @@ a:not([href]):not([tabindex]):hover {
   width: 60px;
   height: 60px;
   text-align: center;
-  border: 1px solid #4676fa;
+  border: 1px solid #5cdb95;
   display: inline-block;
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 15px;
-  webkit-transition: all 0.3s ease-in-out;
+  /* webkit-transition: all 0.3s ease-in-out; */
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .item-boxes .icon i {
   font-size: 30px;
   line-height: 60px;
-  color: #4676fa;
+  color: #05386b;
 }
 .item-boxes h4 {
   font-size: 20px;
+  color: #0d3559;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -429,7 +431,7 @@ a:not([href]):not([tabindex]):hover {
   padding-bottom: 30px;
 }
 #features .box-item .icon {
-  border: 1px solid #4676fa;
+  border: 1px solid #05386b;
   text-align: center;
   margin: 12px;
   -webkit-transition: all 0.2s linear;
@@ -438,7 +440,7 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.2s linear;
 }
 #features .box-item .icon i {
-  color: #4676fa;
+  color: #05386b;
   font-size: 24px;
   line-height: 60px;
   -webkit-transition: all 0.2s linear;
@@ -456,10 +458,10 @@ a:not([href]):not([tabindex]):hover {
   line-height: 26px;
 }
 #features .box-item:hover .icon {
-  background: #4676fa;
+  background: #5cdb95;
 }
 #features .box-item:hover .icon i {
-  color: #ffffff;
+  color: #05386b;
 }
 #features .show-box {
   padding: 80px 0px 0px;
@@ -563,8 +565,8 @@ a:not([href]):not([tabindex]):hover {
   padding: 0px 0px 20px;
 }
 .controls .mixitup-control-active {
-  color: #4676fa !important;
-  border-color: #4676fa;
+  color: #05386b !important;
+  border-color: #05386b;
   background: transparent;
 }
 .controls .btn {
@@ -683,11 +685,13 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
 }
 .video-promo .video-promo-content {
-  color: #fff;
+  color: #000;
+  font-weight: 500;
 }
 .video-promo .video-promo-content h2 {
-  color: #fff;
+  color: #000;
   font-size: 30px;
+  font-weight: 800;
   text-transform: uppercase;
 }
 .video-promo .video-promo-content p {
@@ -695,10 +699,10 @@ a:not([href]):not([tabindex]):hover {
 }
 .video-promo .video-promo-content .video-popup {
   min-width: 120px;
-  border: 2px solid #fff;
+  border: 2px solid #000;
   border-radius: 10px;
   padding: 20px;
-  color: #fff;
+  color: #000;
   display: inline-block;
   font-size: 38px;
   -webkit-transition: all 0.5s ease-in-out;
@@ -706,8 +710,8 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.5s ease-in-out;
 }
 .video-promo .video-promo-content .video-popup:hover {
-  background: #4676fa;
-  border-color: #4676fa;
+  background: #5cdb95;
+  border-color: #fff;
   color: #fff;
 }
 .overlay {
@@ -716,7 +720,7 @@ a:not([href]):not([tabindex]):hover {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #4676fa;
+  background: #5cdb95;
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
@@ -740,8 +744,8 @@ a:not([href]):not([tabindex]):hover {
 }
 .pricing-table .icon {
   font-size: 26px;
-  color: #4676fa;
-  border: 1px solid #4676fa;
+  color: #5cdb95;
+  border: 1px solid #5cdb95;
   border-radius: 4px;
   width: 64px;
   height: 64px;
@@ -759,7 +763,7 @@ a:not([href]):not([tabindex]):hover {
   display: inline-block;
   font-size: 28px;
   font-weight: 400;
-  color: #4676fa;
+  color: #5cdb95;
   margin-bottom: 20px;
 }
 .pricing-table .pricing-details ul {
@@ -782,23 +786,25 @@ a:not([href]):not([tabindex]):hover {
 }
 .counters .facts-item {
   text-align: center;
-  color: #fff;
+  color: #05386b;
 }
 .counters .facts-item .icon {
   margin-bottom: 20px;
 }
 .counters .facts-item .icon i {
   font-size: 50px;
-  color: #fff;
+  color: #000;
 }
 .counters .facts-item .fact-count h3 {
   font-size: 35px;
-  color: #fff;
+  color: #000;
   margin-bottom: 15px;
+  font-weight: 600;
 }
 .counters .facts-item .fact-count h4 {
   font-size: 20px;
-  color: #fff;
+  color: #000;
+  font-weight: 600;
 }
 /* ==========================================================================
    Testimonial Section Style
@@ -810,8 +816,8 @@ a:not([href]):not([tabindex]):hover {
   text-align: center;
 }
 .testimonial-item img {
-  width: 80px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 .testimonial-item .testimonial-text h3 {
@@ -833,7 +839,7 @@ a:not([href]):not([tabindex]):hover {
   color: #999;
 }
 .owl-theme .owl-controls .owl-page span {
-  background: #4676fa;
+  background: #5cdb95;
 }
 .owl-theme .owl-controls {
   margin-top: 20px;
@@ -842,7 +848,7 @@ a:not([href]):not([tabindex]):hover {
    Download 
    ========================================================================== */
 #download {
-  background-image: linear-gradient(120deg, #89f7fe 0%, #4676fa 100%);
+  background-image: linear-gradient(120deg, #89f7fe 0%, #5cdb95 100%);
   width: 100%;
 }
 #download .section-title {
@@ -913,7 +919,7 @@ a:not([href]):not([tabindex]):hover {
   color: #999;
 }
 #blog .blog-item-text .meta-tags span a:hover {
-  color: #4676fa;
+  color: #5cdb95;
 }
 #blog .blog-item-text h3 {
   line-height: 26px;
@@ -925,7 +931,7 @@ a:not([href]):not([tabindex]):hover {
   color: #333;
 }
 #blog .blog-item-text h3 a:hover {
-  color: #4676fa;
+  color: #5cdb95;
 }
 #blog .blog-item-text p {
   line-height: 25px;
@@ -986,7 +992,7 @@ a:not([href]):not([tabindex]):hover {
   width: 100%;
 }
 #subscribe form input:focus {
-  border: 1px solid #4676fa;
+  border: 1px solid #5cdb95;
 }
 #subscribe .sub_btn {
   border: none;
@@ -1002,7 +1008,7 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
   top: 0;
   height: 50px;
-  background: #4676fa;
+  background: #5cdb95;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -1025,7 +1031,7 @@ footer {
   color: #fff;
 }
 .site-info p a:hover {
-  color: #4676fa;
+  color: #5cdb95;
 }
 .social-icons {
   margin-bottom: 20px;
@@ -1122,7 +1128,7 @@ footer {
   text-decoration: none;
   color: #fff;
   font-size: 12px;
-  background: #4676fa;
+  background: #5cdb95;
   text-transform: uppercase;
   border: none;
   padding: 7px 16px;
@@ -1152,7 +1158,7 @@ footer {
   font-size: 14px;
   text-align: center;
   border-radius: 4px;
-  background-color: #4676fa;
+  background-color: #5cdb95;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -1179,7 +1185,7 @@ footer {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #4676fa;
+  background-color: #5cdb95;
   opacity: 0.6;
   position: absolute;
   top: 0;
